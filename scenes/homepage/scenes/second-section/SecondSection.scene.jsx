@@ -37,7 +37,7 @@ const SecondSection = () => {
           >
             {constants.SUBTITLE}
           </h4>
-          <Link href="/shop">
+          {/* <Link href="/shop">
             <Button
               className="mt-2"
               variant="primary"
@@ -54,7 +54,7 @@ const SecondSection = () => {
             >
               {constants.BUTTON_TEXT}
             </Button>
-          </Link>
+          </Link> */}
         </Row>
       </Col>
     </Container>

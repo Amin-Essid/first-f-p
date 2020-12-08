@@ -9,13 +9,13 @@ const constants = {
     {
       text: "Home",
       url: "/",
-      _blank: true,
+      _blank: false,
     },
-    {
-      text: "Media",
-      url: "/#",
-      _blank: true,
-    },
+    // {
+    //   text: "Media",
+    //   url: "/#",
+    //   _blank: false,
+    // },
     {
       text: "Find a song",
       url: "/shop/song",
@@ -45,7 +45,7 @@ const NavbarComponent = () => {
       <a href="/">
         <img
           src={logo}
-          style={{ width: "237px" }}
+          style={{ width: "30vh", maxWidth: "237px" }}
           alt="logo"
           href="/contractors"
         />

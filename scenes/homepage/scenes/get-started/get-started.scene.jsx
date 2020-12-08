@@ -65,13 +65,23 @@ const GetStarted = ({}) => {
                 />
               </Button>
             </Link>
-            <Image src={tunes} style={{ marginTop: "50px" }} />
+            <Image
+              id="tunes"
+              src={tunes}
+              style={{ width: "100vh", maxWidth: "486px", marginTop: "50px" }}
+            />
           </Col>
         </Col>
         <Col md={4}>
           <Image
+            id="heroImg"
             src={heroImg}
-            style={{ width: "540px", marginLeft: "-110px", marginTop: "-40px" }}
+            style={{
+              width: "100vh",
+              maxWidth: "540px",
+              marginLeft: "-110px",
+              marginTop: "-40px",
+            }}
           />
         </Col>
       </Row>
