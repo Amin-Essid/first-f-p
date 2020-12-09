@@ -31,7 +31,7 @@ const GetStarted = ({}) => {
     <Container>
       <Row>
         <Col md={8}>
-          <Col style={{ paddingTop: "120px" }}>
+          <Col id="heroText" style={{ paddingTop: "120px" }}>
             <h1 style={{ fontSize: "50px" }}>{constants.TITLE}</h1>
             <h4
               className="mt-4 mb-4"

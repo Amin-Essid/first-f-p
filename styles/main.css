@@ -20,6 +20,13 @@ body {
     margin-left: 0 !important;
   }
 
+  #heroText {
+    padding-top: 30px !important;
+  }
+
+  .mainLogo {
+    width: 30vh !important;
+  }
   #social {
     margin: 0 auto 0 auto !important;
   }
