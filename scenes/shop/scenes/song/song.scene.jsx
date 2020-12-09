@@ -149,7 +149,6 @@ const Song = () => {
                   border: "2px solid #FD9564",
                   boxSizing: "borderBox",
                   width: "80%",
-                  height: "60px",
                   maxWidth: "550px",
                 }}
               >
