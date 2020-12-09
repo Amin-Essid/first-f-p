@@ -45,7 +45,8 @@ const NavbarComponent = () => {
       <a href="/">
         <img
           src={logo}
-          style={{ width: "30vh", maxWidth: "237px" }}
+          className="mainLogo"
+          style={{ width: "237px" }}
           alt="logo"
           href="/contractors"
         />
