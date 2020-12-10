@@ -26,7 +26,7 @@ export const stripeSession = async (data) => {
     formData.append("file", albumCover);
     const [x, y, width, height] = dimensions;
     const imgResponse = await fetch(
-      `${process.env.OLD_BACKEND_URL}/custom?x=${x}&y=${y}&width=${width}&height=${height}`,
+      `${process.env.BACKEND_URL}/custom?x=${x}&y=${y}&width=${width}&height=${height}`,
       {
         method: "POST",
         body: formData,
@@ -38,7 +38,7 @@ export const stripeSession = async (data) => {
     imgUrl = albumCover;
   }
 
-  const res = await fetch(`${process.env.OLD_BACKEND_URL}/stripe/session`, {
+  const res = await fetch(`${process.env.BACKEND_URL}/stripe/session`, {
     method: "POST",
     body: JSON.stringify({
       albumCover: imgUrl,
